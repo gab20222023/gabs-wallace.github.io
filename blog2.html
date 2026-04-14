@@ -2,7 +2,15 @@
 <h1>I Built a Mandelbrot Set Simulator in C++</h1>
 <hr>
 <h2>What Is The Mandelbrot Set?</h2>
-<p>Before adressing why I've built a mandelbrot set simulator, we must first know what a mandelbrot set even is. And to be honest, I </p>
+<p>Before adressing why I've built a mandelbrot set simulator, we must first know what a mandelbrot set even is. And to be honest, I don't even understand much of imginary and complex numbers</p>
+<p>myself. But in the end of the day, I knew enough to build this simulation successfully. So what is the mandelbrot set? The mandelbrot set is a set of complex numbers. If we were to map these</p>
+<p>complex numbers in a coordinate system, with real numbers on the x-axis and the imaginary part on the y-axis, we get a fractal, based on a formula of which complex numbers to include in the set</p>
+<p>and which not to. To determine which complex numbers belong to the mandelbrot set, we follow a simple formula: z = z² + c. We start out by giving z the value of 0, and c will be the complex number.</p>
+<p>(A complex number btw is defined as: c = real number + imaginary part * imaginary number. The real number is the number on the x-axis, and the imaginary part is the number on the y-axis. We'll</p>
+<p>ignore the imaginary number i for now, since it's not truly relevant for the simulation. But for the mathematics it's simply the square root of -1.) Now if we plug the result of the formula, z</p>
+<p>back in the equation and repeat the process as many times as possible, we should encounter one of two possible scenarios. 1. z will scale up infinetely without any signs of stopping or 2. z will</p>
+<p>stay about the same for every repetition. If the second scenario happens, the complex number is part of the mandelbrot set and will be mapped to a different color, than the complex numbers that</p>
+<p>rise to infinity. If we map every single complex number as a pixel in a program, the program will output a window containing a simulation of the mandelbrot set fractal.</p>
 <h2>Why I Wanted to Build a Simulation of it in C++</h2>
 <h2>What Problems I Ran Into</h2>
 <h2>What I Would Add in the Future</h2>
